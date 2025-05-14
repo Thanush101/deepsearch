@@ -1,25 +1,20 @@
 import boto3
 import json
-from dotenv import load_dotenv
-import os
-
-load_dotenv()
+import streamlit as st
 
 bedrock_claude_3_5 = boto3.client(
     service_name='bedrock-runtime',
-    aws_access_key_id = os.getenv('AWS_ACCESS_KEY_ID'),
-    aws_secret_access_key = os.getenv('AWS_SECRET_ACCESS_KEY'),
-    region_name = "ap-south-1"
+    aws_access_key_id=st.secrets["AWS_ACCESS_KEY_ID"],
+    aws_secret_access_key=st.secrets["AWS_SECRET_ACCESS_KEY"],
+    region_name=st.secrets["AWS_REGION"]
 )
 
 bedrock_claude_3_7 = boto3.client(
     service_name='bedrock-runtime',
-    aws_access_key_id=os.getenv('AWS_ACCESS_KEY_ID'),
-    aws_secret_access_key=os.getenv('AWS_SECRET_ACCESS_KEY'),
+    aws_access_key_id=st.secrets["AWS_ACCESS_KEY_ID"],
+    aws_secret_access_key=st.secrets["AWS_SECRET_ACCESS_KEY"],
     region_name="us-west-2"
 )
-
-
 
 
 def llm_response(system_prompt, user_prompt):
