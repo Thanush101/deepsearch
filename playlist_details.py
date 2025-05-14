@@ -55,16 +55,45 @@ def get_youtube_playlist_videos(url: str, mcq_per_video=5, playlist_mcqs=10):
 
         # Extract playlist title
         try:
+            # Try the most common selector
             playlist_title = page.evaluate(
-                "() => document.querySelector('h1#title yt-formatted-string')?.textContent.trim()"
+                "() => document.querySelector('h1#title yt-formatted-string')?.textContent?.trim()"
             )
+            if not playlist_title:
+                # Try YouTube's new layout selector
+                playlist_title = page.evaluate(
+                    "() => document.querySelector('yt-dynamic-sizing-formatted-string#title')?.textContent?.trim()"
+                )
+            if not playlist_title:
+                # Try fallback: meta og:title
+                playlist_title = page.evaluate(
+                    "() => document.querySelector('meta[property=\\'og:title\\']')?.content?.trim()"
+                )
+            if not playlist_title:
+                # Try span with yt-core-attributed-string class (new YouTube layout)
+                playlist_title = page.evaluate(
+                    "() => {\n  const el = document.querySelector('span.yt-core-attributed-string.yt-core-attributed-string--white-space-pre-wrap[role=text]');\n  return el ? el.textContent.trim() : null;\n}"
+                )
+            if not playlist_title:
+                # Try fallback: <title> tag
+                playlist_title = page.title()
+                # Remove trailing ' - YouTube' if present
+                if playlist_title and playlist_title.endswith(' - YouTube'):
+                    playlist_title = playlist_title.replace(' - YouTube', '').strip()
             if playlist_title:
                 output["playlist_info"]["title"] = playlist_title
             else:
                 # Fallback: Try BeautifulSoup if Playwright fails
                 soup_title = BeautifulSoup(page.content(), "html.parser")
                 title_el = soup_title.select_one("h1#title yt-formatted-string")
-                if title_el:
+                if not title_el:
+                    title_el = soup_title.select_one("yt-dynamic-sizing-formatted-string#title")
+                if not title_el:
+                    meta_og = soup_title.find("meta", {"property": "og:title"})
+                    if meta_og:
+                        playlist_title = meta_og.get("content", "").strip()
+                        output["playlist_info"]["title"] = playlist_title
+                elif title_el:
                     output["playlist_info"]["title"] = title_el.text.strip()
         except Exception as e:
             print(f"⚠️ Could not extract playlist title: {e}")

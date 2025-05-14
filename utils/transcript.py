@@ -10,7 +10,16 @@ proxies = {
 }
 
 YTI_API_URL = "https://www.youtube-transcript.io/api/transcripts"
-YTI_API_TOKEN = "681c60baa1baf5a82dd5f382"
+YTI_API_TOKENS = [
+    "681c60baa1baf5a82dd5f382",
+    "681c624386b69cddd17685ed",
+    "681c628dde80881429decd76",
+    "681c62bfa1baf5a82dd5f3b3",
+    "681c62eade80881429decd7f",
+    "68244ac37994b78ec23e3089",
+    "68244c15f0a725b52f52477e",
+    "68244c6d7994b78ec23e30b4",
+]
 
 def fetch_transcript(video_id: str, max_retries: int = 2, backoff_factor: float = 2.0) -> str:
     """
@@ -57,22 +66,28 @@ def fetch_transcript(video_id: str, max_retries: int = 2, backoff_factor: float 
 
     # --- Method 2: youtube-transcript.io API ---
     def _yti_api():
-        resp = requests.post(
-            YTI_API_URL,
-            headers={
-                "Authorization": f"Basic {YTI_API_TOKEN}",
-                "Content-Type": "application/json"
-            },
-            json={"ids": [video_id]},
-            proxies=proxies
-        )
-        resp.raise_for_status()
-        data = resp.json()
-        # api returns a dict of id→{segments:[{text, start, duration},...]}
-        segments = data.get(video_id, {}).get("segments", [])
-        if not segments:
-            raise ValueError("No segments returned by youtube-transcript.io")
-        return " ".join(seg["text"] for seg in segments)
+        last_err = None
+        for token in YTI_API_TOKENS:
+            try:
+                resp = requests.post(
+                    YTI_API_URL,
+                    headers={
+                        "Authorization": f"Basic {token}",
+                        "Content-Type": "application/json"
+                    },
+                    json={"ids": [video_id]},
+                    proxies=proxies
+                )
+                resp.raise_for_status()
+                data = resp.json()
+                segments = data.get(video_id, {}).get("segments", [])
+                if not segments:
+                    raise ValueError("No segments returned by youtube-transcript.io")
+                return " ".join(seg["text"] for seg in segments)
+            except Exception as e:
+                last_err = e
+                continue
+        raise last_err
 
     try:
         return _retry(_yti_api)
