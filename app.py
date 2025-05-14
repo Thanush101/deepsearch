@@ -324,8 +324,9 @@ def process_course(course_name: str) -> dict:
         user_prompt = (
             f"Given the following YouTube playlists for {course_name}, "
             "choose the best playlist that is in English, has the highest views, "
-            "and is the most recent. Only consider playlists where the title and metadata suggest the content is in English. "
-            "Return the best playlist as a JSON object with keys: title, url.\n\n"
+            f"and is the most recent. Only consider playlists where the title and metadata suggest the content is in English and strictly align wit {course_name}."
+            f"**IMPORTANT** The playlist should Strictly align with {course_name} . dont consider any other playlist."
+            "**IMPORTANT** Return the best playlist as a JSON object with keys: title, url.\n\n"
             f"Playlists:\n{json.dumps(playlist_infos, indent=2)}"
         )
         best_playlist, _ = llm_response(system_prompt, user_prompt)
