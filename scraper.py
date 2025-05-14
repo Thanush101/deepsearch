@@ -64,7 +64,7 @@ def scrape_playlists(course_name: str, headless: bool = True) -> dict:
             m = re.search(r"(\d+)", raw.replace(",", ""))
             count = int(m.group(1)) if m else 0
 
-            if count > 25:
+            if count > 15:
                 continue
 
             view_link = card.locator("a.yt-core-attributed-string__link", has_text="View full playlist").first
