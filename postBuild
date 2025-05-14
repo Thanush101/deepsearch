@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -e
+# Installs Chromium, Firefox, and WebKit browsers plus OS dependencies
+playwright install --with-deps

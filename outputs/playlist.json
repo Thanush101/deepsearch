@@ -1,0 +1,871 @@
+{
+  "playlist_info": {
+    "title": "",
+    "channel": "codebasics",
+    "url": "https://www.youtube.com/playlist?list=PLeo1K3hjS3uuKaU2nBDwr6zrSOTzNCs0l",
+    "channel_icon": "https://yt3.ggpht.com/HRNCdCkyzfsHmKV3Xa0_Ehzit9eAClwtynQmaxm2x0GmetLYoU9O55-PwlxWu2BzQ313k0x0ZQ=s48-c-k-c0x00ffffff-no-rj",
+    "what_you_learn": [
+      "Master fundamental statistical concepts including mean, median, standard deviation, and percentiles through practical data science applications",
+      "Apply logarithmic transformations and understand log-normal distributions to normalize skewed data for machine learning models",
+      "Understand and implement cosine similarity for document comparison and text analysis in natural language processing",
+      "Learn outlier detection techniques using both traditional and modified z-scores for data cleaning and analysis",
+      "Apply A/B testing methodology to evaluate and compare different versions of products or features using statistical significance"
+    ]
+  },
+  "videos": [
+    {
+      "title": "Introduction | Mathematics and statistics for data science and machine learning",
+      "url": "https://www.youtube.com/watch?v=8ZI55Inh1_A&list=PLeo1K3hjS3uuKaU2nBDwr6zrSOTzNCs0l&index=1&pp=iAQB",
+      "thumbnail": "https://i.ytimg.com/vi/8ZI55Inh1_A/hqdefault.jpg",
+      "duration": "2:07",
+      "description": "• A comprehensive introduction to essential mathematics and statistics concepts required for data science and machine learning\n\n• Designed for complete beginners, including high school students (10th grade and above)\n\n• Covers fundamental concepts such as:\n  - Standard deviation\n  - Normal and log-normal distributions\n  - Vector and matrix mathematics\n\n• Each topic includes:\n  - Theoretical explanations\n  - Practical coding examples\n  - Real-world applications in data science\n\n• Focus on practical, relevant concepts specifically needed for data science and AI careers\n\n• Interactive approach with community input for additional topics\n\n• Emphasis on clear, simple explanations to make complex mathematical concepts accessible\n\n• Combines theory with hands-on coding practice to reinforce learning and understanding\n\n• Structured to build foundational knowledge progressively\n\n• Content tailored specifically to aspiring data scientists and machine learning practitioners",
+      "questions": {
+        "questions": [
+          {
+            "question": "What is the primary goal of the announced mathematics and statistics series?",
+            "options": [
+              "To cover all topics in mathematics",
+              "To teach advanced calculus concepts",
+              "To teach math concepts specifically required for data science and AI careers",
+              "To prepare students for college mathematics"
+            ],
+            "answer": "To teach math concepts specifically required for data science and AI careers"
+          },
+          {
+            "question": "Who is the target audience for this mathematics and statistics series?",
+            "options": [
+              "Only college graduates",
+              "Only professional data scientists",
+              "Advanced mathematics students",
+              "Beginners, including high school students"
+            ],
+            "answer": "Beginners, including high school students"
+          },
+          {
+            "question": "What teaching approach will be used in the video series?",
+            "options": [
+              "Theory only",
+              "Coding only",
+              "Both theory and coding examples",
+              "Only mathematical formulas"
+            ],
+            "answer": "Both theory and coding examples"
+          },
+          {
+            "question": "Which of the following is mentioned as an example topic to be covered in the series?",
+            "options": [
+              "Ancient mathematics",
+              "Normal distribution",
+              "Quantum computing",
+              "Web development"
+            ],
+            "answer": "Normal distribution"
+          },
+          {
+            "question": "How will additional topics be selected for the series?",
+            "options": [
+              "Based on university curricula",
+              "Based on viewer comments and recommendations",
+              "Based on instructor's preference only",
+              "Based on industry certifications"
+            ],
+            "answer": "Based on viewer comments and recommendations"
+          }
+        ]
+      },
+      "what_you_learn": [
+        "Understand fundamental mathematical concepts required for data science and machine learning",
+        "Master basic statistical concepts including standard deviation and probability distributions",
+        "Apply vector and matrix mathematics essential for data science applications",
+        "Learn to implement mathematical concepts through practical coding exercises",
+        "Develop foundational knowledge suitable for beginners transitioning into data science"
+      ]
+    },
+    {
+      "title": "Median, Mean, Mode, Percentile | Math, Statistics for data science, machine learning",
+      "url": "https://www.youtube.com/watch?v=t4LOv9h-FJM&list=PLeo1K3hjS3uuKaU2nBDwr6zrSOTzNCs0l&index=2&pp=iAQB",
+      "thumbnail": "https://i.ytimg.com/vi/t4LOv9h-FJM/hqdefault.jpg",
+      "duration": "18:54",
+      "description": "• Learn fundamental statistical concepts including mean, median, mode, and percentiles through practical examples\n\n• Understand when to use median instead of mean, particularly when dealing with outliers in datasets\n\n• Explore real-world applications through a case study of analyzing income data for a luxury car showroom location\n\n• Master the concept of percentiles and their importance in data analysis:\n  - 25th, 50th (median), and 75th percentiles\n  - Interquartile Range (IQR)\n  - Using percentiles for outlier detection and removal\n\n• Learn practical data cleaning techniques:\n  - Handling missing values using median imputation\n  - Identifying and removing outliers using percentile-based methods\n  - Understanding when to use different statistical measures\n\n• Practice Python implementation using pandas:\n  - Calculate descriptive statistics\n  - Use quantile functions\n  - Handle missing values\n  - Remove outliers from datasets\n\n• Gain hands-on experience with real data through an Airbnb dataset exercise\n\n• Understand the importance of choosing appropriate statistical measures based on data characteristics and business context\n\n• Learn how percentiles are used in standardized testing and relative scoring systems\n\n• Master practical applications in data science and machine learning workflows",
+      "questions": {
+        "questions": [
+          {
+            "question": "Why is median often preferred over mean when dealing with outliers in a dataset?",
+            "options": [
+              "Because median is always larger than mean",
+              "Because median is less affected by extreme values",
+              "Because median is easier to calculate",
+              "Because median always provides more accurate results"
+            ],
+            "answer": "Because median is less affected by extreme values"
+          },
+          {
+            "question": "What is the interquartile range (IQR)?",
+            "options": [
+              "The range between minimum and maximum values",
+              "The range between 0th and 100th percentile",
+              "The range between 25th and 75th percentile",
+              "The range between mean and median"
+            ],
+            "answer": "The range between 25th and 75th percentile"
+          },
+          {
+            "question": "In a dataset, what does the 50th percentile represent?",
+            "options": [
+              "The average value",
+              "The median",
+              "The mode",
+              "The maximum value"
+            ],
+            "answer": "The median"
+          },
+          {
+            "question": "What is mode in a dataset?",
+            "options": [
+              "The middle value",
+              "The average value",
+              "The most frequently occurring value",
+              "The largest value"
+            ],
+            "answer": "The most frequently occurring value"
+          },
+          {
+            "question": "When filling missing values (NA) in a dataset with outliers, what is the recommended approach?",
+            "options": [
+              "Always use the mean",
+              "Use the median instead of mean",
+              "Leave the values as NA",
+              "Use the mode only"
+            ],
+            "answer": "Use the median instead of mean"
+          }
+        ]
+      },
+      "what_you_learn": [
+        "Understand the key differences between mean, median, and mode in statistical analysis",
+        "Apply percentile calculations to identify and remove outliers in datasets",
+        "Master the use of median for handling missing values in data cleaning processes",
+        "Learn how to implement statistical concepts using Python's pandas library for data analysis"
+      ]
+    },
+    {
+      "title": "What is Standard Deviation and Mean Absolute Deviation | Math, Statistics for data science, ML",
+      "url": "https://www.youtube.com/watch?v=yCDevFTNbC0&list=PLeo1K3hjS3uuKaU2nBDwr6zrSOTzNCs0l&index=3&pp=iAQB",
+      "thumbnail": "https://i.ytimg.com/vi/yCDevFTNbC0/hqdefault.jpg",
+      "duration": "8:16",
+      "description": "• Mean Absolute Deviation (MAD) and Standard Deviation are statistical measures that quantify data spread around the mean\n\n• MAD is calculated by:\n- Taking the absolute difference between each data point and the mean\n- Computing the average of these differences\n\n• Standard Deviation is calculated by:\n- Finding the difference between each data point and the mean\n- Squaring these differences\n- Taking the average of squared differences\n- Computing the square root of this average\n\n• Standard Deviation advantages:\n- More sensitive to outliers than MAD\n- Better represents data distribution when points are not evenly spread\n- Particularly useful when data points are far from the mean\n\n• Key applications:\n- Widely used in statistics, data science, and machine learning\n- Forms the basis for L1 norm (MAD) and L2 norm (Standard Deviation)\n- Essential for techniques like ridge regression and lasso regression\n\n• Practical significance:\n- Helps quantify data variability with a single metric\n- Particularly valuable when analyzing large datasets\n- Enables comparison of spread between different data distributions",
+      "questions": {
+        "questions": [
+          {
+            "question": "What is the main difference between Mean Absolute Deviation (MAD) and Standard Deviation?",
+            "options": [
+              "MAD uses absolute values while Standard Deviation uses squared values",
+              "MAD is always larger than Standard Deviation",
+              "Standard Deviation is always simpler to calculate",
+              "MAD can only be used with positive numbers"
+            ],
+            "answer": "MAD uses absolute values while Standard Deviation uses squared values"
+          },
+          {
+            "question": "In machine learning terminology, what is L1 norm equivalent to?",
+            "options": [
+              "Standard Deviation",
+              "Mean Absolute Deviation",
+              "Normal Distribution",
+              "Variance"
+            ],
+            "answer": "Mean Absolute Deviation"
+          },
+          {
+            "question": "Why might Standard Deviation be preferred over Mean Absolute Deviation in some cases?",
+            "options": [
+              "Because it's easier to calculate",
+              "Because it's always more accurate",
+              "Because it gives more weight to points farther from the mean",
+              "Because it only works with positive numbers"
+            ],
+            "answer": "Because it gives more weight to points farther from the mean"
+          },
+          {
+            "question": "In the mathematics test example from the content, what was the standard deviation?",
+            "options": [
+              "3.16",
+              "23.00",
+              "6.02",
+              "3.55"
+            ],
+            "answer": "6.02"
+          },
+          {
+            "question": "What is the final step in calculating standard deviation after finding the average of squared differences?",
+            "options": [
+              "Multiply by the number of data points",
+              "Take the square root",
+              "Take the absolute value",
+              "Add the mean"
+            ],
+            "answer": "Take the square root"
+          }
+        ]
+      },
+      "what_you_learn": [
+        "Understand the concept of mean absolute deviation (MAD) as a measure of data spread from the average",
+        "Calculate standard deviation using the step-by-step mathematical process",
+        "Differentiate between mean absolute deviation (L1 norm) and standard deviation (L2 norm)",
+        "Apply these statistical measures to compare the spread of different datasets",
+        "Recognize the limitations of mean absolute deviation and when standard deviation is more appropriate"
+      ]
+    },
+    {
+      "title": "Normal Distribution and Z Score | Math, Statistics for data science, machine learning",
+      "url": "https://www.youtube.com/watch?v=okhrFgaUwio&list=PLeo1K3hjS3uuKaU2nBDwr6zrSOTzNCs0l&index=4&pp=iAQB",
+      "thumbnail": "https://i.ytimg.com/vi/okhrFgaUwio/hqdefault.jpg",
+      "duration": "19:48",
+      "description": "• Normal Distribution (Gaussian Distribution) is a bell-shaped probability distribution where most data points cluster around the mean, with fewer points toward the extremes\n\n• Key characteristics:\n- 68.3% of data falls within ±1 standard deviation\n- 95.5% of data falls within ±2 standard deviations\n- 99.7% of data falls within ±3 standard deviations\n\n• Common real-world examples:\n- Human height distributions\n- Test scores in a classroom\n- Property prices in a region\n- Employee performance ratings\n\n• Z-score measures how many standard deviations a data point is from the mean\n- Formula: (data point - mean) / standard deviation\n- Helps standardize data points for comparison\n- Useful for identifying outliers\n\n• Practical applications in data science:\n- Outlier detection and removal\n- Data cleaning\n- Quality control\n- Statistical analysis\n\n• Python implementation highlights:\n- Using pandas for data manipulation\n- Seaborn for visualization (histograms and bell curves)\n- Calculating z-scores\n- Removing outliers using standard deviation thresholds\n\n• Best practices:\n- Generally consider points beyond ±3 standard deviations as outliers\n- Use judgment based on dataset size and context\n- Clean data before building machine learning models\n- Visualize distributions during exploratory data analysis",
+      "questions": {
+        "questions": [
+          {
+            "question": "What percentage of data points in a normal distribution falls within plus/minus 2 standard deviations from the mean?",
+            "options": [
+              "68.3%",
+              "95.5%",
+              "99.7%",
+              "85.0%"
+            ],
+            "answer": "95.5%"
+          },
+          {
+            "question": "How is the z-score of a data point calculated?",
+            "options": [
+              "(Data point × Mean) / Standard Deviation",
+              "(Data point - Mean) / Standard Deviation",
+              "(Mean - Data point) × Standard Deviation",
+              "Data point / (Mean × Standard Deviation)"
+            ],
+            "answer": "(Data point - Mean) / Standard Deviation"
+          },
+          {
+            "question": "What is the general guideline for identifying outliers using standard deviations in a normal distribution?",
+            "options": [
+              "Data points beyond ±1 standard deviation",
+              "Data points beyond ±2 standard deviations",
+              "Data points beyond ±3 standard deviations",
+              "Data points beyond ±4 standard deviations"
+            ],
+            "answer": "Data points beyond ±3 standard deviations"
+          },
+          {
+            "question": "Why is outlier removal important in data science?",
+            "options": [
+              "To make the data look more visually appealing",
+              "To reduce the size of the dataset",
+              "To prevent skewing of machine learning models",
+              "To increase the standard deviation"
+            ],
+            "answer": "To prevent skewing of machine learning models"
+          },
+          {
+            "question": "What type of curve is characteristic of a normal distribution?",
+            "options": [
+              "Square curve",
+              "Bell curve",
+              "Linear curve",
+              "Exponential curve"
+            ],
+            "answer": "Bell curve"
+          }
+        ]
+      },
+      "what_you_learn": {
+        "learning_outcomes": [
+          "Understand the concept of normal distribution and its characteristics, including the bell curve shape and data concentration around the mean",
+          "Apply z-score calculations to measure how many standard deviations a data point is from the mean",
+          "Implement outlier detection and removal techniques using standard deviation and z-scores in Python",
+          "Master the visualization of normal distributions using histograms and kernel density plots in Python libraries"
+        ]
+      }
+    },
+    {
+      "title": "What is logarithm? | Math, Statistics for data science, machine learning",
+      "url": "https://www.youtube.com/watch?v=KzQQCtgzQbw&list=PLeo1K3hjS3uuKaU2nBDwr6zrSOTzNCs0l&index=5&pp=iAQB",
+      "thumbnail": "https://i.ytimg.com/vi/KzQQCtgzQbw/hqdefault.jpg",
+      "duration": "7:52",
+      "description": "• Logarithms are inverse functions of exponential operations, helping find the power (exponent) needed to reach a specific number from a base value\n\n• The most common form is log base 10, where log₁₀(x) represents how many times 10 must be multiplied by itself to reach x\n\n• Key property: log x to base x always equals 1 (e.g., log₁₀(10) = 1)\n\n• In data analysis, logarithmic scales help visualize data with large value disparities:\n  - Makes extreme values more comparable\n  - Prevents large values from overshadowing smaller ones in charts\n  - Particularly useful when analyzing financial or statistical data\n\n• Applications in Machine Learning:\n  - Log transformation helps normalize skewed data\n  - Reduces the impact of outliers\n  - Creates more comparable scales for features with large value ranges\n  - Improves model accuracy by preventing bias from extreme values\n\n• Real-world applications:\n  - Financial analysis and compound growth calculations\n  - Richter scale for measuring earthquakes (each unit increase represents 10x more power)\n  - Loss functions in machine learning algorithms\n\n• Benefits of logarithmic transformation:\n  - Converts multiplicative relationships to additive ones\n  - Makes exponential growth patterns linear\n  - Helps in comparing values across different orders of magnitude",
+      "questions": {
+        "questions": [
+          {
+            "question": "If you have $5 initial investment with a 5x return each year, how much money will you have after 2 years?",
+            "options": [
+              "$50",
+              "$75",
+              "$100",
+              "$125"
+            ],
+            "answer": "D"
+          },
+          {
+            "question": "What is the value of log(100) to base 10?",
+            "options": [
+              "1",
+              "2",
+              "10",
+              "100"
+            ],
+            "answer": "B"
+          },
+          {
+            "question": "Why is logarithmic scale often used in data visualization?",
+            "options": [
+              "To make all values exactly equal",
+              "To make the visualization more colorful",
+              "To better compare values when some are very high and others are relatively small",
+              "To remove small values from the visualization"
+            ],
+            "answer": "C"
+          },
+          {
+            "question": "In earthquake measurement, if an earthquake has a magnitude of 6, how many times more powerful is it than a magnitude 5 earthquake?",
+            "options": [
+              "2 times",
+              "5 times",
+              "10 times",
+              "100 times"
+            ],
+            "answer": "C"
+          },
+          {
+            "question": "Why is log transformation used in machine learning with income data?",
+            "options": [
+              "To increase all income values",
+              "To decrease all income values",
+              "To bring values to a more comparable scale and prevent model bias",
+              "To eliminate low income values"
+            ],
+            "answer": "C"
+          }
+        ]
+      },
+      "what_you_learn": [
+        "Understand the fundamental concept of logarithms as inverse functions of exponentials",
+        "Apply logarithmic scales to improve data visualization when comparing values of vastly different magnitudes",
+        "Explain the use of log transformations in machine learning to handle skewed data and prevent model bias",
+        "Interpret real-world applications of logarithmic scales, such as earthquake measurements",
+        "Master the basic mathematical properties of logarithms including log base relationships"
+      ]
+    },
+    {
+      "title": "Log normal distribution | Math, Statistics for data science, machine learning",
+      "url": "https://www.youtube.com/watch?v=xtTX69JZ92w&list=PLeo1K3hjS3uuKaU2nBDwr6zrSOTzNCs0l&index=6&pp=iAQB",
+      "thumbnail": "https://i.ytimg.com/vi/xtTX69JZ92w/hqdefault.jpg",
+      "duration": "6:44",
+      "description": "• Log-normal distribution occurs when the logarithm of a variable follows a normal distribution, commonly seen in real-world data like income, hospitalization stays, and advertising budgets\n\n• Unlike normal distribution's symmetric bell curve shape, log-normal distributions are right-skewed with a long tail extending to higher values\n\n• Key examples of log-normal distribution:\n- Income data (most people earn average salaries, while few earn extremely high amounts)\n- Hospitalization stays (typical stays are short, with some extending to hundreds of days)\n- Corporate advertising budgets (ranges from modest to extremely large amounts)\n\n• In data science applications:\n- Log transformation helps normalize right-skewed data\n- Converting log-normal data to normal distribution improves machine learning model performance\n- Particularly useful when features have widely varying scales\n\n• Technical implementation:\n- Can be visualized using Python's Seaborn library\n- Applied to features like income data in predictive modeling\n- Helps standardize values for better model accuracy\n\n• When dealing with right-skewed data in machine learning:\n- Log transformation brings outlier values closer to the main distribution\n- Creates more uniform scale for model inputs\n- Improves overall prediction accuracy",
+      "questions": {
+        "questions": [
+          {
+            "question": "What happens when you apply a log function to the x-axis of a right-skewed income distribution?",
+            "options": [
+              "It becomes more right-skewed",
+              "It transforms into a normal distribution (bell curve)",
+              "It becomes left-skewed",
+              "It remains unchanged"
+            ],
+            "answer": "It transforms into a normal distribution (bell curve)"
+          },
+          {
+            "question": "Which of the following is NOT an example of log-normal distribution mentioned in the text?",
+            "options": [
+              "Income distribution",
+              "Test scores",
+              "Hospitalization days",
+              "Advertising budgets"
+            ],
+            "answer": "Test scores"
+          },
+          {
+            "question": "Why is log transformation useful in machine learning models?",
+            "options": [
+              "It makes the data more complex",
+              "It brings values to a similar scale range",
+              "It increases the size of the dataset",
+              "It removes outliers completely"
+            ],
+            "answer": "It brings values to a similar scale range"
+          },
+          {
+            "question": "What distinguishes a log-normal distribution from a normal distribution?",
+            "options": [
+              "It has a symmetric bell curve shape",
+              "It has a right-skewed tail that extends indefinitely",
+              "It only contains negative values",
+              "It has a fixed maximum value like test scores"
+            ],
+            "answer": "It has a right-skewed tail that extends indefinitely"
+          },
+          {
+            "question": "In the context of income data, why doesn't it follow a normal distribution?",
+            "options": [
+              "Because income has a minimum limit of zero",
+              "Because there is no upper limit to potential income",
+              "Because most people earn exactly the same amount",
+              "Because income data is always negative"
+            ],
+            "answer": "Because there is no upper limit to potential income"
+          }
+        ]
+      },
+      "what_you_learn": [
+        "Understand the concept of log normal distribution and how it differs from normal distribution",
+        "Identify real-world examples of log normal distributions including income, hospitalization days, and advertising budgets",
+        "Apply log transformation to convert log-normally distributed data into normal distribution",
+        "Master the use of log transformation in machine learning to improve model accuracy when dealing with skewed data",
+        "Learn to visualize log normal distributions using Python's seaborn library"
+      ]
+    },
+    {
+      "title": "sin cos tan explained. Explanation using real life example | Math, Statistics for data science",
+      "url": "https://www.youtube.com/watch?v=o6nFv0UfEdI&list=PLeo1K3hjS3uuKaU2nBDwr6zrSOTzNCs0l&index=7&pp=iAQB",
+      "thumbnail": "https://i.ytimg.com/vi/o6nFv0UfEdI/hqdefault.jpg",
+      "duration": "10:02",
+      "description": "• Explores trigonometric functions (sine, cosine, tangent) through practical, real-world examples\n\n• Demonstrates how to measure a tree's height using trigonometry:\n- Measure distance from observer to tree\n- Calculate angle between ground and treetop\n- Apply tangent function to find height\n\n• Explains tangent (tan) as a natural relationship between:\n- Opposite side and adjacent side of a right triangle\n- Fixed angle values corresponding to specific ratios\n\n• Covers sine and cosine using a practical package-moving example:\n- Shows how force components split into horizontal and vertical directions\n- Demonstrates how sine calculates vertical force component\n- Explains how cosine determines horizontal force component\n\n• Introduces key trigonometric formulas:\n- sin θ = opposite/hypotenuse\n- cos θ = adjacent/hypotenuse\n- tan θ = opposite/adjacent\n\n• Connects to Pythagoras theorem as foundational concept\n- Square of hypotenuse equals sum of squares of other sides\n\n• Highlights applications in:\n- Engineering (mechanical, civil)\n- Data science (cosine similarity in natural language processing)\n- Practical problem-solving\n\n• Emphasizes that trigonometric ratios are fixed natural relationships rather than arbitrary mathematical concepts",
+      "questions": {
+        "questions": [
+          {
+            "question": "In the tree height measurement example, if a forest officer measures a distance of 50 feet from the tree and an angle of 30 degrees, what is the approximate height of the tree?",
+            "options": [
+              "25.75 feet",
+              "28.85 feet",
+              "30.50 feet",
+              "32.15 feet"
+            ],
+            "answer": "28.85 feet"
+          },
+          {
+            "question": "According to the material, what is the tangent of 45 degrees?",
+            "options": [
+              "0.5",
+              "0.866",
+              "1.0",
+              "0.577"
+            ],
+            "answer": "1.0"
+          },
+          {
+            "question": "When pulling a package with a 10 Newton force at a 30-degree angle, what is the vertical component (y) of the force?",
+            "options": [
+              "8.66 Newtons",
+              "5.0 Newtons",
+              "3.0 Newtons",
+              "7.5 Newtons"
+            ],
+            "answer": "5.0 Newtons"
+          },
+          {
+            "question": "What is the mathematical relationship for sine θ?",
+            "options": [
+              "Adjacent side / Hypotenuse",
+              "Opposite side / Adjacent side",
+              "Opposite side / Hypotenuse",
+              "Hypotenuse / Opposite side"
+            ],
+            "answer": "Opposite side / Hypotenuse"
+          },
+          {
+            "question": "In a right triangle with height 3 and base 4, what is the angle between the base and hypotenuse?",
+            "options": [
+              "30.00 degrees",
+              "36.87 degrees",
+              "45.00 degrees",
+              "60.00 degrees"
+            ],
+            "answer": "36.87 degrees"
+          }
+        ]
+      },
+      "what_you_learn": [
+        "Understand the real-world applications of trigonometric ratios (sine, cosine, and tangent) through practical examples",
+        "Apply trigonometric functions to solve height measurement problems using angles and distances",
+        "Learn how sine, cosine, and tangent represent fixed mathematical relationships found in nature",
+        "Master the calculation of force components using trigonometric ratios in physics problems",
+        "Understand the fundamental relationships between angles and sides in right triangles using trigonometric ratios"
+      ]
+    },
+    {
+      "title": "Cosine similarity, cosine distance explained | Math, Statistics for data science, machine learning",
+      "url": "https://www.youtube.com/watch?v=m_CooIRM3UI&list=PLeo1K3hjS3uuKaU2nBDwr6zrSOTzNCs0l&index=8&pp=iAQB",
+      "thumbnail": "https://i.ytimg.com/vi/m_CooIRM3UI/hqdefault.jpg",
+      "duration": "12:28",
+      "description": "• Cosine similarity is a mathematical technique used to measure document similarity by comparing word frequency vectors\n\n• The concept works by representing documents as vectors where each dimension corresponds to word frequencies (e.g., iPhone count, Galaxy count)\n\n• Similar documents have vectors pointing in similar directions, resulting in a small angle between them\n\n• Cosine similarity converts the angle between vectors into a score between 0 and 1:\n  - 1.0 indicates identical documents\n  - 0.0 indicates completely different documents\n  - Values in between show partial similarity\n\n• Cosine distance is simply 1 minus cosine similarity, providing an alternative way to express document relationships\n\n• Key advantages:\n  - Works with high-dimensional data (hundreds of features)\n  - Effective for text analysis and document classification\n  - Language-independent mathematical approach\n\n• Practical applications:\n  - Automatic document classification\n  - Content recommendation systems\n  - Financial document analysis\n  - Metadata tagging automation\n\n• Implementation tools:\n  - Python's scikit-learn library provides cosine_similarity()\n  - Pandas for data manipulation\n  - TensorFlow offers similar functionality\n  - Can be used with both small and large-scale document collections",
+      "questions": {
+        "questions": [
+          {
+            "question": "What is cosine similarity primarily used for in the context of document analysis?",
+            "options": [
+              "To count the total number of words in a document",
+              "To measure the similarity between two vectors/documents based on their angle",
+              "To calculate the physical distance between documents",
+              "To determine the length of documents"
+            ],
+            "answer": "To measure the similarity between two vectors/documents based on their angle"
+          },
+          {
+            "question": "What is the relationship between cosine similarity and cosine distance?",
+            "options": [
+              "They are completely unrelated measures",
+              "Cosine distance = 1 + cosine similarity",
+              "Cosine distance = 1 - cosine similarity",
+              "They are exactly the same thing"
+            ],
+            "answer": "Cosine distance = 1 - cosine similarity"
+          },
+          {
+            "question": "When two vectors are pointing in exactly the same direction, what is their cosine similarity?",
+            "options": [
+              "0",
+              "-1",
+              "0.5",
+              "1"
+            ],
+            "answer": "1"
+          },
+          {
+            "question": "In the financial document example, why is vector mathematics useful?",
+            "options": [
+              "Because it helps count words faster",
+              "Because it can handle multiple dimensions/features simultaneously",
+              "Because it makes documents easier to read",
+              "Because it reduces storage space"
+            ],
+            "answer": "Because it can handle multiple dimensions/features simultaneously"
+          },
+          {
+            "question": "When using Python's cosine similarity function, why must the input be a two-dimensional array?",
+            "options": [
+              "It's just a random requirement",
+              "It makes calculations faster",
+              "It's the required signature/format of the method",
+              "It helps avoid errors in calculation"
+            ],
+            "answer": "It's the required signature/format of the method"
+          }
+        ]
+      },
+      "what_you_learn": [
+        "Understand the concept of cosine similarity as a measure of document similarity based on vector mathematics",
+        "Apply cosine similarity and cosine distance calculations to compare text documents using Python",
+        "Learn how to represent text documents as vectors using word frequency counts",
+        "Master the relationship between vector angles and document similarity scores in the range of 0 to 1",
+        "Implement document comparison using the scikit-learn library's cosine similarity function"
+      ]
+    },
+    {
+      "title": "Simple explanation of A/B Testing",
+      "url": "https://www.youtube.com/watch?v=eiIhTbFP0ls&list=PLeo1K3hjS3uuKaU2nBDwr6zrSOTzNCs0l&index=9&pp=iAQB",
+      "thumbnail": "https://i.ytimg.com/vi/eiIhTbFP0ls/hqdefault.jpg",
+      "duration": "5:49",
+      "description": "• A/B Testing is a data-driven method to compare two versions of a product or feature to determine which performs better\n\n• The process involves splitting user traffic equally between two variants (A and B) and measuring specific success metrics over a defined period\n\n• Key considerations for valid A/B testing include:\n  - Eliminating sampling bias through random traffic distribution\n  - Ensuring adequate sample size\n  - Testing for statistical significance\n  - Running tests for sufficient duration\n\n• Common applications include:\n  - Website layout optimization\n  - UI element placement\n  - Product recommendations\n  - Machine learning model deployment\n  - Social media advertising campaigns\n\n• Major companies like Amazon, LinkedIn, and Facebook regularly use A/B testing for:\n  - Website navigation improvements\n  - Product category organization\n  - Feature updates\n  - Layout modifications\n\n• While A/B/C or multivariate testing is possible, A/B testing remains popular due to:\n  - Simpler experimental design\n  - Easier analysis and interpretation\n  - Clear decision-making process\n\n• Best practices for implementation:\n  - Random distribution of traffic\n  - Adequate testing duration\n  - Proper measurement of success metrics\n  - Consideration of statistical significance\n  - Controlled testing environment",
+      "questions": {
+        "questions": [
+          {
+            "question": "What is the primary purpose of A/B testing?",
+            "options": [
+              "To save money on marketing campaigns",
+              "To compare two versions of something to determine which performs better",
+              "To create multiple versions of websites",
+              "To generate more sales leads automatically"
+            ],
+            "answer": "To compare two versions of something to determine which performs better"
+          },
+          {
+            "question": "Why is sampling bias a concern in A/B testing?",
+            "options": [
+              "It makes the testing process too expensive",
+              "It can lead to incorrect conclusions if test groups aren't randomly distributed",
+              "It requires too many technical resources",
+              "It only affects websites with low traffic"
+            ],
+            "answer": "It can lead to incorrect conclusions if test groups aren't randomly distributed"
+          },
+          {
+            "question": "Why is A/B testing preferred over A/B/C or A/B/C/D testing?",
+            "options": [
+              "Because it's cheaper to implement",
+              "Because it provides more accurate results",
+              "Because the experimental design becomes simpler with two options",
+              "Because it takes less time to complete"
+            ],
+            "answer": "Because the experimental design becomes simpler with two options"
+          },
+          {
+            "question": "How do companies like Amazon use A/B testing for machine learning models?",
+            "options": [
+              "They test different pricing strategies",
+              "They deploy new models to all users immediately",
+              "They split traffic between current and new versions to measure performance",
+              "They only test during peak shopping seasons"
+            ],
+            "answer": "They split traffic between current and new versions to measure performance"
+          },
+          {
+            "question": "What is an important consideration when determining the duration of an A/B test?",
+            "options": [
+              "The test must be completed within one day",
+              "The test should have enough samples to avoid random chance affecting results",
+              "The test should only be run during business hours",
+              "The test duration depends on website design"
+            ],
+            "answer": "The test should have enough samples to avoid random chance affecting results"
+          }
+        ]
+      },
+      "what_you_learn": [
+        "Understand the fundamental concept of A/B testing as a data-driven decision-making tool",
+        "Learn how to identify and avoid sampling bias in A/B testing experiments",
+        "Apply A/B testing principles to website design and layout optimization",
+        "Master the importance of adequate sample size and statistical significance in A/B testing",
+        "Understand real-world applications of A/B testing in digital marketing and machine learning"
+      ]
+    },
+    {
+      "title": "Simple explanation of Modified Z Score | Modified Z Score to detect outliers with python code",
+      "url": "https://www.youtube.com/watch?v=m7KWxX23zCU&list=PLeo1K3hjS3uuKaU2nBDwr6zrSOTzNCs0l&index=10&pp=iAQB",
+      "thumbnail": "https://i.ytimg.com/vi/m7KWxX23zCU/hqdefault.jpg",
+      "duration": "25:32",
+      "description": "• Explains the concept of modified z-score as a method for detecting outliers in data analysis\n\n• Compares two approaches to outlier detection:\n  - Traditional z-score (using mean and standard deviation)\n  - Modified z-score (using median and median absolute deviation)\n\n• Key advantages of modified z-score:\n  - Less sensitive to extreme values than traditional z-score\n  - More effective with small sample sizes\n  - Better at detecting outliers when data is skewed\n\n• Technical components covered:\n  - Calculation of MAD (Median Absolute Deviation)\n  - Formula for modified z-score: 0.6745 × (x - median) / MAD\n  - Threshold of 3.5 for identifying outliers\n\n• Practical implementation demonstrated through:\n  - Excel walkthrough with height data example\n  - Python code example using movie revenue dataset\n  - Pandas and NumPy implementation details\n\n• Real-world application insights:\n  - Choice between methods depends on data distribution\n  - Particularly useful when mean is heavily influenced by outliers\n  - Helps identify anomalies in financial and statistical analysis\n\n• Demonstrates both methods using practical examples:\n  - Height measurements analysis\n  - Movie revenue analysis showing different outlier detection results",
+      "questions": {
+        "questions": [
+          {
+            "question": "What is the recommended threshold value for detecting outliers using modified z-score?",
+            "options": [
+              "2.5",
+              "3.0",
+              "3.5",
+              "4.0"
+            ],
+            "answer": "3.5"
+          },
+          {
+            "question": "In the movie revenue analysis example, why did modified z-score detect more outliers than regular z-score?",
+            "options": [
+              "Because it uses median instead of mean as its basis point",
+              "Because it always detects more outliers by design",
+              "Because the dataset was too small",
+              "Because it uses a lower threshold value"
+            ],
+            "answer": "Because it uses median instead of mean as its basis point"
+          },
+          {
+            "question": "What is the constant value used in the modified z-score formula?",
+            "options": [
+              "0.5674",
+              "0.6745",
+              "0.7654",
+              "0.8765"
+            ],
+            "answer": "0.6745"
+          },
+          {
+            "question": "What is MAD in the context of outlier detection?",
+            "options": [
+              "Maximum Absolute Deviation",
+              "Mean Absolute Difference",
+              "Median Absolute Deviation",
+              "Modified Average Distance"
+            ],
+            "answer": "Median Absolute Deviation"
+          },
+          {
+            "question": "When is modified z-score particularly useful compared to regular z-score?",
+            "options": [
+              "When the dataset has many data points",
+              "When there are no outliers in the data",
+              "When the mean is not affected by outliers",
+              "When the sample size is smaller and outliers affect the mean significantly"
+            ],
+            "answer": "When the sample size is smaller and outliers affect the mean significantly"
+          }
+        ]
+      },
+      "what_you_learn": {
+        "learningOutcomes": [
+          "Understand the difference between z-score and modified z-score for outlier detection in datasets",
+          "Apply the mathematical formula for calculating Median Absolute Deviation (MAD) and modified z-score",
+          "Implement outlier detection using both z-score and modified z-score methods in Python and Excel",
+          "Evaluate when to use modified z-score versus traditional z-score based on dataset characteristics and sample size"
+        ]
+      }
+    },
+    {
+      "title": "What is Hypothesis Testing ? Math, Statistics for data science, machine learning",
+      "url": "https://www.youtube.com/watch?v=fb8BSFr0isg&list=PLeo1K3hjS3uuKaU2nBDwr6zrSOTzNCs0l&index=11&pp=iAQB",
+      "thumbnail": "https://i.ytimg.com/vi/fb8BSFr0isg/hqdefault.jpg",
+      "duration": "13:56",
+      "description": "• Hypothesis testing is a statistical method used to validate claims by ruling out random chance in observed results\n\n• Key concepts demonstrated through a pharmaceutical example:\n  - Testing if a new drug (B) is more effective than existing drug (A)\n  - Need for adequate sample size and diverse test groups\n  - Importance of controlling variables across test groups\n\n• Core components of hypothesis testing:\n  - Alternate Hypothesis (Ha): The claim you want to prove\n  - Null Hypothesis (H0): The established or currently accepted fact\n  - Goal is to reject the null hypothesis to support the alternate hypothesis\n\n• Sample size and variation considerations:\n  - Small samples may not provide reliable conclusions\n  - Test groups should represent diverse demographics\n  - Need to account for various factors affecting results\n\n• Common hypothesis testing methods:\n  - Z-test\n  - T-test\n  - ANOVA\n  - Chi-Square test\n\n• Real-world applications:\n  - Drug efficacy testing\n  - Machine learning model comparison\n  - Scientific theory validation\n  - Workplace productivity studies\n\n• The approach parallels legal proceedings:\n  - Start with established fact (null hypothesis)\n  - Gather evidence to disprove it\n  - Success leads to accepting the alternative explanation",
+      "questions": {
+        "questions": [
+          {
+            "question": "In the drug effectiveness example, why was testing on 10 volunteers not sufficient to prove Drug B was better than Drug A?",
+            "options": [
+              "Because Drug A was more expensive",
+              "Because the sample size was too small compared to the population",
+              "Because Drug B was a new medication",
+              "Because the volunteers didn't have headaches"
+            ],
+            "answer": "Because the sample size was too small compared to the population"
+          },
+          {
+            "question": "What is the main purpose of hypothesis testing?",
+            "options": [
+              "To prove that new theories are always correct",
+              "To eliminate the element of randomness from observed results",
+              "To support existing beliefs without question",
+              "To make pharmaceutical drugs more effective"
+            ],
+            "answer": "To eliminate the element of randomness from observed results"
+          },
+          {
+            "question": "In hypothesis testing, what is a null hypothesis?",
+            "options": [
+              "A new claim that you want to prove",
+              "The established or currently accepted fact that you try to reject",
+              "A random guess about the outcome",
+              "The final conclusion of the experiment"
+            ],
+            "answer": "The established or currently accepted fact that you try to reject"
+          },
+          {
+            "question": "Why do we start with a null hypothesis instead of directly proving the alternative hypothesis?",
+            "options": [
+              "Because it's easier to calculate",
+              "Because it's similar to 'innocent until proven guilty' principle",
+              "Because it's always correct",
+              "Because it requires less data"
+            ],
+            "answer": "Because it's similar to 'innocent until proven guilty' principle"
+          },
+          {
+            "question": "Which of these is NOT mentioned as a technique for conducting hypothesis testing?",
+            "options": [
+              "Z-test",
+              "T-test",
+              "Chi-Square test",
+              "P-Square test"
+            ],
+            "answer": "P-Square test"
+          }
+        ]
+      },
+      "what_you_learn": {
+        "learningOutcomes": [
+          "Understand the fundamental concept of hypothesis testing and its role in eliminating randomness from experimental results",
+          "Differentiate between null hypothesis (H0) and alternative hypothesis (Ha) using real-world examples",
+          "Explain why sample size and sample variation are crucial factors in conducting effective hypothesis tests",
+          "Recognize how hypothesis testing is used to validate claims in scientific, business, and medical contexts"
+        ]
+      }
+    }
+  ],
+  "playlist_questions": {
+    "questions": [
+      {
+        "question": "When analyzing a dataset with extreme outliers, which combination of statistical measures would be most appropriate to use?",
+        "options": [
+          "Mean and standard deviation",
+          "Median and modified z-score",
+          "Mode and traditional z-score",
+          "Mean and MAD (Mean Absolute Deviation)"
+        ],
+        "answer": "Median and modified z-score"
+      },
+      {
+        "question": "In a dataset of employee salaries at a tech company, you notice a highly right-skewed distribution. What transformation would be most appropriate to normalize this data?",
+        "options": [
+          "Square root transformation",
+          "Logarithmic transformation",
+          "Linear scaling",
+          "Exponential transformation"
+        ],
+        "answer": "Logarithmic transformation"
+      },
+      {
+        "question": "When comparing the similarity of two text documents in a recommendation system, why is cosine similarity preferred over Euclidean distance?",
+        "options": [
+          "Because it's faster to compute",
+          "Because it only considers the angle between vectors, not their magnitude",
+          "Because it always returns values between 0 and 1",
+          "Because it works better with small datasets"
+        ],
+        "answer": "Because it only considers the angle between vectors, not their magnitude"
+      },
+      {
+        "question": "In an A/B test comparing two website layouts, what percentage of data points should fall within 2 standard deviations of the mean, assuming a normal distribution?",
+        "options": [
+          "68.3%",
+          "95.5%",
+          "99.7%",
+          "50%"
+        ],
+        "answer": "95.5%"
+      },
+      {
+        "question": "When conducting hypothesis testing for a new machine learning model's performance, what is the correct interpretation of failing to reject the null hypothesis?",
+        "options": [
+          "The new model is definitely worse than the existing model",
+          "The new model is definitely better than the existing model",
+          "There isn't enough evidence to conclude the new model is better",
+          "The test was conducted incorrectly"
+        ],
+        "answer": "There isn't enough evidence to conclude the new model is better"
+      },
+      {
+        "question": "Which combination of statistical concepts would be most useful for cleaning and preparing a dataset with significant outliers and missing values?",
+        "options": [
+          "Mean imputation and standard deviation-based outlier removal",
+          "Median imputation and modified z-score outlier detection",
+          "Mode imputation and traditional z-score outlier detection",
+          "Random imputation and percentile-based outlier removal"
+        ],
+        "answer": "Median imputation and modified z-score outlier detection"
+      },
+      {
+        "question": "How is cosine similarity related to trigonometric concepts in data science applications?",
+        "options": [
+          "It uses the sine function to measure distances",
+          "It measures the angle between two vectors to determine similarity",
+          "It calculates the tangent of document vectors",
+          "It applies the Pythagorean theorem to word frequencies"
+        ],
+        "answer": "It measures the angle between two vectors to determine similarity"
+      },
+      {
+        "question": "When analyzing customer purchase amounts, you notice the data follows a log-normal distribution. What does this indicate?",
+        "options": [
+          "The data is normally distributed",
+          "Most values are small with a few very large values",
+          "The data is uniformly distributed",
+          "All values are approximately equal"
+        ],
+        "answer": "Most values are small with a few very large values"
+      },
+      {
+        "question": "Which statistical measure would be most appropriate for determining the central tendency of housing prices in a neighborhood with several luxury mansions?",
+        "options": [
+          "Mean",
+          "Median",
+          "Mode",
+          "Standard deviation"
+        ],
+        "answer": "Median"
+      },
+      {
+        "question": "What is the key advantage of using the modified z-score over the traditional z-score for outlier detection?",
+        "options": [
+          "It's easier to calculate",
+          "It's less sensitive to extreme values in the dataset",
+          "It always produces positive values",
+          "It works better with large datasets"
+        ],
+        "answer": "It's less sensitive to extreme values in the dataset"
+      }
+    ]
+  }
+}
