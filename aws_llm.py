@@ -61,7 +61,7 @@ def llm_response(system_prompt, user_prompt):
         return  response_body['content'][0]['text'], cost
         
     except Exception as e:
-        return  f"Error: {e}"
+        return  f"Error: {e}",0
 
 
 
@@ -106,7 +106,7 @@ def llm_response_rsng(system_prompt, user_prompt):
         return  response_body['content'][0]['text'], cost        
 
     except Exception as e:
-        return f"Error: {e}"
+        return f"Error: {e}",0
 
 
 # if __name__ == "__main__":
